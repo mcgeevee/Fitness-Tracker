@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+</head>
+
+<body>
+  <img src="assets/images/yoga.png" width="100" height="100" />
+  <h1>Fitness Tracker App</h1>
+  <div id="wrapper"></div>
+  <h4>Keep track of your fitness goals by <span id="status" class="primary">creating</span> your workout below</h4>
+  </div>
+  <div id="user-input">
+    <p>What title would you like to give to this workout?</p>
+    <input type="text" id="title" />
+    <br />
+    <p>Please describe your goals.</p>
+    <textarea id="note"></textarea>
+    <p>How long is this workout? </p>
+    <input type="text" id="time">
+    <div id="action-button">
+      <button id="make-new">Submit</button>
+    </div>
+    <h4 id="contexts">All your workouts are stored below, click each title to edit/continue or each x to delete</h4>
+    <button id="clear-all">Delete All Workouts</button>
+    <p>Your Workout History:</p>
+  </div>
+
+  <div id="results"></div>
+  <br>
+  <script src="app.js"></script>
+</body>
+
+</html>
