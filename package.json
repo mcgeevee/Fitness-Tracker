@@ -17,5 +17,13 @@
     "watch": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgeevee/Fitness-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcgeevee/Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/mcgeevee/Fitness-Tracker#readme"
 }

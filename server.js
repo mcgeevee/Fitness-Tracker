@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const databaseUrl = process.env.MONGODB_URI || "fitness-tracker";
+const databaseUrl = process.env.MONGODB_URI || "'mongodb://localhost/Fitness-Tracker";
 const collections = ["notes"];
 
 const db = mongojs(databaseUrl, collections);
